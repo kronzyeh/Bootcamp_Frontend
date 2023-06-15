@@ -161,4 +161,5 @@ function updateTotalQuantity() {
 updateTotalQuantity();
 document.addEventListener('DOMContentLoaded', function() {
   displayFruit();
+  
 });
