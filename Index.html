@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>FRONTEND</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img class="logo" src="images/logo.jpg" alt="Logo">
+            <h1>Fruit Inventory</h1>
+        </div>
+    </header>
+    <hr>
+    <div class="button-container">
+        <button id="read-button" class="button">Read</button>
+      </div>
+      
+    <table class="tablerino" id="fruit-table">
+        <thead>
+            <tr>
+              <th>Name</th>
+              <th>Quantity</th>
+              <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be added dynamically -->
+        </tbody>
+    </table>
+    <div id="total-quantity">Total Quantity: <span id="count">0</span></div>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button" class="button">Search</button>
+    </div>
+    <div class="form-container">
+      <h2>Add Fruit</h2>
+      
+      <form id="addFruitForm" method="post">
+        <label for="fruit-name">Name:</label>
+        <input type="text" id="fruit-name" name="fruit-name" placeholder="Enter fruit name">
+  
+        <label for="fruit-quantity">Quantity:</label>
+        <input type="text" id="fruit-quantity" name="fruit-quantity" placeholder="Enter fruit quantity">
+  
+        <button class="addButton" type="submit" value="Add">Add fruit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
