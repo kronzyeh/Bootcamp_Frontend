@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import ReservationForm from './AddReservationForm';
-import ReservationList from './ReservationList';
-import SearchBar from './SearchBar';
+import ReservationForm from './Components/AddReservationForm';
+import ReservationList from './Components/ReservationList';
+import SearchBar from './Components/SearchBar';
 import "./App.css"
 
 function App() {
@@ -73,7 +73,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>My reservations (admin) </h1>
+      <h1>ADMIN RESERVATIONS </h1>
       <hr/>
       
       <div className="reservation-form">
@@ -89,6 +89,7 @@ function App() {
       <div class="reservation-list">
         <div className="search-bar">
         <SearchBar
+        reservations={reservations}
         onChange={handleSearch}
         setSearchTerm={setSearchTerm}
         />

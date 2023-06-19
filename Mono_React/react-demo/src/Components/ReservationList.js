@@ -1,5 +1,5 @@
 import React from 'react';
-import './ReservationList.css';
+import '../Css/ReservationList.css';
 
 function ReservationList({ reservations, onDeleteReservation, onEditReservation }) {
     const confirmDelete = (index) => {
@@ -24,7 +24,7 @@ function ReservationList({ reservations, onDeleteReservation, onEditReservation 
 
   return (
     <div>
-      <h2>Reservation List</h2>
+      <h2>All reservations</h2>
       {reservations.length > 0 ? (
         <table className="reservation-table">
           <thead>
