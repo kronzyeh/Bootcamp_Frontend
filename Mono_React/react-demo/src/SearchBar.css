@@ -1,0 +1,17 @@
+.search-bar{
+    align-items: center;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.search-bar input[type="text"] {
+    background-color:white;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    border-style:groove;
+    border-color:black;
+    border-radius: 4px;
+    width:350px;
+    text-align:center;
+  }

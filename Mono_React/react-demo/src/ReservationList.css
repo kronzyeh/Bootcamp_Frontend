@@ -1,0 +1,51 @@
+.reservation-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .reservation-table th,
+  .reservation-table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .reservation-table th {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .reservation-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .reservation-table tr:hover{
+    background-color:beige;
+  }
+  .reservation-list{
+    text-align:center;
+  }
+  .delete-button{
+    color:rgb(171, 9, 9);
+    text-decoration:solid;
+    background-color: white;
+    cursor:pointer;
+    font-size:15px;
+    border-radius:4px;
+  }
+  .delete-button:hover{
+    font-size:20px;
+  }
+.edit-button{
+    color:rgb(171, 9, 9);
+    text-decoration:solid;
+    background-color: white;
+    cursor:pointer;
+    font-size:15px;
+    border-radius:4px;
+    margin-left:5px;
+}
+.edit-button:hover{
+    font-size:20px;
+}
+.status-image{
+    max-width: 20px;
+}
