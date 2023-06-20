@@ -4,13 +4,21 @@ background-size: 10px 10px;
 background-color: #ffffff;
 }
 .reservation-form {
-  max-width: 400px;
+  max-width: 200px;
+  max-height:50px;
+  text-align:center;
+  align-items:center;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #4caf50;
+  color:white;
+  font-size:15px;
+  cursor:pointer;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-top:30px;
+  display:grid;
+  margin-bottom:20px;
 }
 
 .reservation-form h2 {
@@ -41,6 +49,10 @@ background-color: #ffffff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  align-items: center;
+  text-align: center;
+  display:grid;
+  float: right;
 }
 
 .reservation-form button[type="submit"]:hover {
@@ -56,6 +68,97 @@ hr{
   margin-top:30px;
   text-align:center;
 }
+.reservation-table {
+  width: 100%;
+  border-collapse: collapse;
+  align-items: center;
+  display:grid;
+}
 
+.reservation-table th,
+.reservation-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.reservation-table th {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.reservation-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.reservation-table tr:hover{
+  background-color:beige;
+}
+.reservation-list{
+  text-align:center;
+}
+.delete-button{
+  color:rgb(171, 9, 9);
+  text-decoration:solid;
+  background-color: white;
+  cursor:pointer;
+  font-size:15px;
+  border-radius:4px;
+}
+.delete-button:hover{
+  font-size:20px;
+}
+.edit-button{
+  color:rgb(171, 9, 9);
+  text-decoration:solid;
+  background-color: white;
+  cursor:pointer;
+  font-size:15px;
+  border-radius:4px;
+  margin-left:5px;
+}
+.edit-button:hover{
+  font-size:20px;
+}
+.status-image{
+  max-width: 20px;
+}
+.app-container h2{
+  text-align:center;
+}
+.restaurant-form {
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.restaurant-form h1 {
+  margin-bottom: 10px;
+}
+
+.restaurant-form input {
+  margin-top: 20px;
+  width:500px;
+  height: 40px; /* Adjust the height here */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size:larger;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  /* Add hover styles if desired */
+}
 
 
